@@ -24,7 +24,7 @@ setuptools.setup(
         "Programming Language :: Python :: 3.7",
         "Operating System :: OS Independent",
     ],
-    packages=['PyPackage_template']
+    packages=['PyPackage_template'],
     install_requires=['requests>=2.2.0', 'folium==0.8.3'],
     entry_points={
         "console_scripts": [
